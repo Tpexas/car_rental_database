@@ -1,1 +1,2 @@
 # car_rental_database
+The car rental databse made of 4 tables. Database is connected with web page, which has basic front-end and crud back-end. To place an order client should login (login function needs to be improved), then order is posted in database. Client can use search function with 3 criteria for car. Admin can access, create, edit and remove information about orders, clients and cars.

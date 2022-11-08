@@ -1,0 +1,80 @@
+.no-gutters {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+div .no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+div .bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: white;
+}
+
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.card img{
+    height:12rem;
+  object-fit: cover;
+
+}
+td img{
+  object-fit: cover;
+}
+
+body{
+    background: #eee;
+}
+#frm{
+    border: solid gray 1px;
+    width:25%;
+    border-radius: 2px;
+    margin: 120px auto;
+    background: white;
+    padding: 50px;
+}
+#btn{
+    color: #fff;
+    background: #337ab7;
+    padding: 7px;
+    margin-left: 70%;
+}
+div.card{
+  margin-left: 70px !important;
+  margin-bottom: 30px;
+  display: inline-block;
+  vertical-align: text-top;
+}
