@@ -1,3 +1,3 @@
-# car_rental_database
-This is unfinished website for the car rental databse which is made of 4 tables.Web page is coded with basic front-end and crud back-end. To place an order client should login (login function needs to be improved), then the order is posted in database. Client can use search function with 3 criteria for specific car. Admin can access, create, edit and remove information about orders, clients and cars.
+# Car_rental_crud
+This is unfinished car rental crud app prototype as task for university. It has 4 tables in database for users, cars, buy and rent orders. To place an order user needs to login, although current version of the prototype doesn't support registration. Buy and rent orders are automatically placed in database. System administrator can access, create, edit and remove information about orders, clients and cars. User has ability to search cars by brand, type and production date.
 
